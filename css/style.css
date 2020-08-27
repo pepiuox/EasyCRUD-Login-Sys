@@ -1,0 +1,208 @@
+/* GLOBAL */
+footer {
+	bottom: 0;
+	position: absolute;
+	background-color: white;
+	opacity: 0.85;
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
+
+.correct {
+	border-color: green;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+}
+
+.navlink {
+	text-decoration: none;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url("../css/login-bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.navlink:link {
+	color: #222222;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.navlink:visited {
+	color: #222222;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.navlink:hover {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.navlink:active {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: midnightblue;
+	color: white;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.button2:hover {
+	background-color: midnightblue;
+	color: white;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+/* INDEX */
+.top-navbar {
+	margin-top: 2px;
+	width: 100%;
+	height: 20%;
+}
+
+.top-navbar .navlink {
+	padding: 10px;
+	float: right;
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 5px;
+	opacity: 0.9;
+}
+
+.top-navbar li::after {
+	padding-left: 10px;
+}
+
+.top-navbar ul:first-child {
+	padding-right: 40px;
+}
+
+#searchButton {
+	float: right;
+	box-shadow: 2px 2px 2px 1px lightgray;
+	cursor: pointer;
+}
+
+#searchButton:hover {
+	cursor: pointer;
+	box-shadow: 1.5px 1.5px 2px 2px lightgray;
+	cursor: pointer;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 100;
+	font-family: sans-serif;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+input[type=search] {
+	width: 100%;
+	font-size: 14px;
+	border-radius: 15px;
+	border-width: 2px;
+	padding: 5px;
+	opacity: 0.9;
+}
+
+.searchEngine {
+	display: inline;
+}
+
+input:focus {
+	outline: none;
+}
+
+/* LOGIN */
+.column {
+	flex: 50%;
+	margin-left: 20px;
+}
+
+.loginForm {
+	-webkit-border-radius: 10px; -moz-border-radius : 10px; border-radius :
+	10px;
+	padding: 5px;
+	margin: 5px 0;
+	font-size: 14px;
+}
+
+.column hr {
+	width: 80%;
+	float: left;
+}
+
+.column h2 {
+	padding-left: 85px;
+}
+
+.register {
+	color: navy;
+	font-weight: bold;
+}
+
+td {
+	padding: 5px;
+}
+
+tr {
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:hover {
+	background-color: lightgray;
+	transition-duration: 0.2s;
+}
+
+.rentbutton {
+	width: 100%;
+	border-radius: 5px;
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	border: 2px solid black;
+	padding: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.rentbutton:hover {
+	background-color: navy;
+	color: white;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}

@@ -1,0 +1,152 @@
+/* Index */
+.descText {
+	word-spacing: 0.08rem;
+	letter-spacing: 0.01rem;
+	color: #59595c;
+	font-size: 1.7rem;
+	line-height: 1.75em;
+}
+
+.description {
+	margin-top: 10%;
+}
+
+.red {
+	color: #FF2A00;
+}
+
+/* Login form */
+.cnt {
+	text-align: center;
+}
+
+.gray a {
+	color: graytext;
+}
+
+.nobold {
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.form-login {
+	max-width: 330px;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 10%;
+	border: 3px dashed;
+	border-color: #e7e7e7;
+	background-color: #F8F8F8;
+}
+
+.form-login .form-login-heading, .form-login .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-login .checkbox {
+	font-weight: normal;
+}
+
+.form-login .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-login .form-control:focus {
+	z-index: 2;
+}
+
+.form-login input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.colorgraph {
+	height: 7px;
+	border-top: 0;
+	background: #c4e17f;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: #279597;
+}
+
+.btn {
+	border: 1px solid;
+	border-color: #e7e7e7;
+	background-color: #2793a6;
+	color: #fff;
+}
+/* End Login-form */
+
+/* Registration form */
+.form-registration {
+	max-width: 350px;
+	margin: 0 auto;
+	margin-top: 8%;
+	border: 3px dashed;
+	border-color: #e7e7e7;
+	background-color: #F8F8F8;
+	padding: 20px;
+}
+
+.form-registration .form-registration-heading, .form-registration .checkbox
+	{
+	margin-bottom: 10px;
+}
+
+.form-registration .checkbox {
+	font-weight: normal;
+}
+
+.form-registration .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-registration .form-control:focus {
+	z-index: 2;
+}
+
+.form-registration input[type="email"] {
+	margin-bottom: -1px;
+	border-radius: 0;
+	border-radius: 0;
+}
+
+.form-registration input[type="password"] {
+	margin-bottom: 0px;
+	border-radius: 0;
+	border-radius: 0;
+}
+
+/* End Registration form */
+
+/* Forgot password form */
+.form-forgot {
+	max-width: 350px;
+	margin: 0 auto;
+	margin-top: 10%;
+	border: 3px dashed;
+	border-color: #e7e7e7;
+	background-color: #F8F8F8;
+	padding: 20px;
+}
+/* End Forgot password form */
