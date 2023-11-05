@@ -15,6 +15,7 @@ include 'top.php';
     include 'header.php';
     if ($login->isLoggedIn() === true) {
         header('Location: index.php'); // If user is already logged in redirect back to index.php
+        exit();
     } else {
         include 'views/register.php';
     }

@@ -81,19 +81,19 @@
                 </ul>
             <?php } ?>
             <ul class="navbar-nav ml-auto">
-                <?php if (!empty(@$_SESSION['user_id'])): ?>
+                <?php if (!empty(@$_SESSION['user_id'])) { ?>
                     <li class="nav-item"><a class="nav-link"
                                             href="profile.php"><span class="glyphicon glyphicon-user"></span>
                             <?php print_r(@$_SESSION['user_id']) ?></a></li>
                     <li class="nav-item"><a class="nav-link" href="logout.php"><span
                                 class="glyphicon glyphicon-log-out"></span> Desconectar</a></li>
-                    <?php else: ?>
+                    <?php } else { ?>
                     <li class="nav-item"><a class="nav-link"
                                             href="login.php"><span class="glyphicon glyphicon-log-in"></span>
                             Iniciar sesión</a></li>
                     <li class="nav-item"><a class="nav-link" href="register.php"><span
                                 class="glyphicon glyphicon-user"></span> Regístrate</a></li>
-                        <?php endif; ?>
+                        <?php } ?>
             </ul>
 
             <!-- /Navigation buttons -->
